@@ -1,0 +1,6 @@
+.result{
+    width: 50%;
+    background-color: hsl(241, 100%, 89%);
+    padding: 30px;
+    border-radius: 10px;
+}
