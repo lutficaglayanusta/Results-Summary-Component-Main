@@ -18,6 +18,14 @@ ul li{
     padding: 30px;
     border-radius: 10px;
 }
+.summary button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
 .redInfo{
     color: hsl(0, 100%, 67%);
     flex-grow: 1;
@@ -49,4 +57,9 @@ ul li{
 }
 .blue{
     background-color: hsla(234, 85%, 45%,0.1);
+}
+@media screen and (max-width:600px){
+    .summary{
+        width: 90%;
+    }
 }

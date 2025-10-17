@@ -3,4 +3,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+@media screen and (max-width:600px){
+  .container{
+    max-width: 375px;
+    flex-direction: column;
+    top: 50px;
+  }
 }

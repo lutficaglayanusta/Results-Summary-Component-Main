@@ -4,9 +4,12 @@ const Result = () => {
   return (
     <div className={css.result}>
       <h2>Your Result</h2>
-      <p>76 of 100</p>
+      <div className={css.score}>
+        <p className={css.number}>76</p>
+        <p className={css.span}>of 100</p>
+      </div>
       <h3>Great</h3>
-      <p>
+      <p className={css.info}>
         You scored higher than 65% of the people who have taken these tests.
       </p>
     </div>
