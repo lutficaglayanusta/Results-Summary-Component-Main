@@ -19,12 +19,17 @@ ul li{
     border-radius: 10px;
 }
 .summary button{
-    background-color: black;
+    background-color: hsl(224, 30%, 27%);
     color: white;
     border-radius: 20px;
     padding: 10px;
     border: none;
     width: 100%;
+    transition:  all 0.8s ease-in-out;
+}
+.summary button:hover{
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    cursor: pointer;
 }
 .redInfo{
     color: hsl(0, 100%, 67%);
